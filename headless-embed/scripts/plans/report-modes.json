@@ -1,0 +1,7 @@
+[
+  {"go": "/workbooks", "wait": 800}, {"events": true},
+  {"eval": "history.pushState({}, '', '/reports/REPORT_URL_ID?mode=edit'); dispatchEvent(new PopStateEvent('popstate')); 'ok'", "label": "nav"},
+  {"wait": 18000}, {"iframeSrc": true}, {"shot": "report-edit.png"},
+  {"click": ".emb-seg-btn", "text": "View"}, {"wait": 12000}, {"iframeSrc": true}, {"shot": "report-view.png"},
+  {"click": ".emb-bar-btn", "text": "Download PDF"}, {"wait": 20000}
+]

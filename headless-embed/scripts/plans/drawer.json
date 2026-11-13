@@ -1,0 +1,7 @@
+[
+  {"go": "/armory/112", "wait": 2000},
+  {"click": ".btn-ai"}, {"wait": 800},
+  {"click": ".agent-suggest-btn"},
+  {"waitIdle": ".agent-panel .agent-scroll", "max": 90},
+  {"shot": "drawer-answer.png"}
+]

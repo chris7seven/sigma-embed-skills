@@ -1,0 +1,8 @@
+[
+  {"go": "/", "wait": 1500},
+  {"click": ".rail-new"}, {"wait": 400}, {"shot": "create-menu.png"},
+  {"click": ".cr-menu-item", "text": "New workbook"}, {"wait": 900},
+  {"click": ".cr-tpl", "text": "Detection review"}, {"shot": "create-dialog.png"},
+  {"click": ".emb-modal .btn-primary"}, {"wait": 25000},
+  {"eval": "location.pathname + location.search", "label": "opened"}, {"shot": "create-workbook-editor.png"}
+]

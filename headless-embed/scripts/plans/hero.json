@@ -1,0 +1,8 @@
+[
+  {"go": "/", "wait": 2500},
+  {"click": ".home-suggest-card", "text": "PowerShell"},
+  {"waitIdle": ".agent-scroll", "max": 90},
+  {"scroll": ".agent-scroll"}, {"wait": 8000},
+  {"eval": "document.querySelectorAll('.agent-scroll iframe').length", "label": "live visuals"},
+  {"shot": "hero-answer.png"}
+]

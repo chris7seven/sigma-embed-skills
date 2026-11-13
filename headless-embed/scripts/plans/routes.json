@@ -1,0 +1,9 @@
+[
+  {"go": "/", "wait": 2500}, {"shot": "01-home.png"},
+  {"go": "/armory"}, {"shot": "02-armory.png"},
+  {"go": "/armory/112"}, {"shot": "03-detail.png"},
+  {"go": "/entities/overview"}, {"shot": "04-entity.png"},
+  {"go": "/data-feeds"}, {"shot": "05-feeds.png"},
+  {"go": "/command-center", "wait": 15000}, {"iframeSrc": true}, {"shot": "06-command-center.png"},
+  {"go": "/workbooks", "wait": 2500}, {"shot": "07-workbooks.png"}
+]
